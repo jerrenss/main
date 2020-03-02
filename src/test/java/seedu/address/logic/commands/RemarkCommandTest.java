@@ -21,6 +21,7 @@ import seedu.address.model.ModelManager;
 import seedu.address.model.UserPrefs;
 import seedu.address.model.person.Person;
 import seedu.address.model.person.Remark;
+import seedu.address.model.person.RemarkG;
 import seedu.address.testutil.PersonBuilder;
 
 /**
@@ -29,6 +30,9 @@ import seedu.address.testutil.PersonBuilder;
 public class RemarkCommandTest {
 
     private static final String REMARK_STUB = "Some remark";
+
+    private static final String REMARKG_STUB = "Some remarkG";
+
 
     private Model model = new ModelManager(getTypicalAddressBook(), new UserPrefs());
 
